@@ -19,7 +19,7 @@ In this section, you will be designing a mobile version of a desktop site.
 
 Specifically, we'll be mocking up Hardee's burger menu. Consistently ranked as one of the worst mobile websites, the page is begging for some help with a re-design. [LINK]. Go ahead and navigate to the page now, and use your developer tools to simulate the mobile view. You'll get something like this:
 
-![Screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-06%20at%204.35.13%20PM.png)
+![Screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-06%20at%205.21.25%20PM.png)
 
 Your task is to mock up the "Menu and Nutrition" view, re-designing it so that the user has access to all the same information, but in a mobile friendly format. 
 
