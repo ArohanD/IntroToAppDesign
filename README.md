@@ -19,7 +19,7 @@ In this section, you will be designing a mobile version of a desktop site.
 
 Specifically, we'll be mocking up Hardee's burger menu. Consistently ranked as one of the worst mobile websites, the page is begging for some help with a re-design. [LINK]. Go ahead and navigate to the page now, and use your developer tools to simulate the mobile view. You'll get something like this:
 
-![Screenshot](screenshots/Screen Shot 2020-01-06 at 4.35.13 PM.png)
+![Screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-06%20at%204.35.13%20PM.png)
 
 Your task is to mock up the "Menu and Nutrition" view, re-designing it so that the user has access to all the same information, but in a mobile friendly format. 
 
@@ -45,24 +45,28 @@ Go ahead and rank your user stories in order of what you believe is highest prio
 ### Mocking up a prototype
 Now we can begin our mockup. As this is a mobile mockup, the first step we take is to decide which screen-size we are mocking up for. Generally it doesn't matter which device model you use for your mockup, but industry standard is usually the latest Apple device (with or without notch, up to you). There are two main reasons for this, firstly as Apple has a large market share of devices, and secondly because it helps standardize the design process. 
 
-Click [Tab], select [Option] and drag your first screen somewhere on the top left of your board. Put a name on top of it using the text tool, then select both the screen and text and put them into a group. 
+1. Click the Region Tools (looks like a hashtag at the top left of the toolbar) 
+2. On the right toolbar, under the design tab select a phone model. It should appear on your board.
+3. Put a name on top of it using the text tool, drag both items somewhere on the board you are happy with, and then lock the screen in place by clicking the lock button on the left in the layers menu. This prevents accidental moving of the frame. 
+
+Congratulations! You've made your first app screen. One important caveat to note about mobile design: it may seem limited at first with such small screens, but we've designed mobile websites to scroll. If you ever need to add more content to a mobile page later, you can do so and represent it in your mock-ups by making the frame longer (increasing the height).
 
 ### Using templates
 Some will say that all art is just theft and for the most part that can be said about design too. There's no need to re-design an app from scratch with so many templates out in the wild. Often these starter templates can contain everything from components to font hierarchies (ie h1 vs h4) as well as different stylings.
 
 Here are some free starter Figma templates that you should save to your account. You will most likely be lifting components from some of them as we progress:
 
-- Grommet [Link]: A popular component library that Netflix is based off
-- Material UI [Link] and Material UI Icons [Link]: Based on Google's popular design language.
-- Pro Desgin Kit [Link] based on Apple's design language.
+- [Grommet](https://www.figma.com/file/aO892qfy1TK0Uv6FGkuObW7z/grommet-2-open-theme): A popular component library that Netflix is based off
+- [Material UI](https://www.figma.com/file/8dbmFxPJdkh6FLxwSyCRiC/Material-Design-Theme-Kit/duplicate) and [Material UI Icons](https://www.figma.com/file/HSO7v6n3wynorNCUaBTxU55T/Figma-%2B-Material-Design-Icons-Kit?node-id=0%3A1): Based on Google's popular design language.
+- There are several kits based on Apple's design language, feel free to Google one that works for you, but they do often tend to involve a fee.
 
-Go ahead and use these templates (or not, if you want to do everything from scratch) to illustrate the following screens, at minimum:
+Go ahead and use these templates (or not, if you want to do everything from scratch) to illustrate the following screens. Create a new frame like we did above for each screen.
 
 - Menu navigation screen(s)
   - You can have one for each menu sub-section, or one screen for all burgers. Think of which would be better for users.
 - An individual burger view that displays it's ingredients and nutritional information.
 
-As you do this, pay attention to design. Don;t be afraid to lift assets from the Hardee's website and copy or find font and color equivalents. This is a **crucial** step to getting stakeholders to buy in to proposals. 
+As you do this, pay attention to design. Don't be afraid to lift assets from the Hardee's website and copy or find font and color equivalents. This is a **crucial** step to getting stakeholders to buy in to proposals. 
 
 ## 3. Illustrating data flow
 This section details how to detail how to outline how data will be passed from one app screen to the next. Take a moment and think about why that might be important.
