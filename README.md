@@ -49,6 +49,9 @@ Now we can begin our mockup. As this is a mobile mockup, the first step we take 
 2. On the right toolbar, under the design tab select a phone model. It should appear on your board.
 3. Put a name on top of it using the text tool, drag both items somewhere on the board you are happy with, and then lock the screen in place by clicking the lock button on the left in the layers menu. This prevents accidental moving of the frame. 
 
+You should have something that looks like this:
+![screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-09%20at%2012.58.31%20PM.png)
+
 Congratulations! You've made your first app screen. One important caveat to note about mobile design: it may seem limited at first like you have little room to work with, but we've designed mobile websites to scroll. If you ever need to add more content to a mobile page later, you can do so and represent it in your mock-ups by making the frame longer (increasing the height).
 
 ### Using templates
