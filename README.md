@@ -10,14 +10,14 @@ In this section, you will learn how to create your first Figma document.
 
 To create an account, head to the Figma website and follow the instructions after the sign-up button on the top-right. Once you are in your documents view, you can hit the plus button at the top left to create a new document.
 
-
+![Screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-06%20at%204.35.13%20PM.png)
 
 If you wish, you may also download the Figma desktop app for MacOS. 
 
 ## 2. Mocking up a Mobile Website
 In this section, you will be designing a mobile version of a desktop site.
 
-Specifically, we'll be mocking up Hardee's burger menu. Consistently ranked as one of the worst mobile websites, the page is begging for some help with a re-design. [LINK]. Go ahead and navigate to the page now, and use your developer tools to simulate the mobile view. You'll get something like this:
+Specifically, we'll be mocking up Hardee's burger menu. Consistently ranked as one of the worst mobile websites, the page is begging for some help with a re-design -[link](https://www.hardees.com/menu/nutritional_calculator_landing). Go ahead and navigate to the page now, and use your developer tools to simulate the mobile view. You'll get something like this:
 
 ![Screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-06%20at%205.21.25%20PM.png)
 
@@ -43,16 +43,16 @@ Come up with 2-3 more user stories that you think a visitor on the menu page mig
 Go ahead and rank your user stories in order of what you believe is highest priority. 
 
 ### Mocking up a prototype
-Now we can begin our mockup. As this is a mobile mockup, the first step we take is to decide which screen-size we are mocking up for. Generally it doesn't matter which device model you use for your mockup, but industry standard is usually the latest Apple device (with or without notch, up to you). There are two main reasons for this, firstly as Apple has a large market share of devices, and secondly because it helps standardize the design process. 
+Now we can begin our mockup. As this is a mobile mockup, the first step we take is to decide which screen-size we are mocking up for. Generally it doesn't matter which device model you use for your mockup, but industry standard is usually the latest Apple device (with or without notch, up to you). There are two main reasons for this- firstly as Apple has a large market share of devices, and because it helps standardize the design process. 
 
 1. Click the Region Tools (looks like a hashtag at the top left of the toolbar) 
 2. On the right toolbar, under the design tab select a phone model. It should appear on your board.
 3. Put a name on top of it using the text tool, drag both items somewhere on the board you are happy with, and then lock the screen in place by clicking the lock button on the left in the layers menu. This prevents accidental moving of the frame. 
 
-Congratulations! You've made your first app screen. One important caveat to note about mobile design: it may seem limited at first with such small screens, but we've designed mobile websites to scroll. If you ever need to add more content to a mobile page later, you can do so and represent it in your mock-ups by making the frame longer (increasing the height).
+Congratulations! You've made your first app screen. One important caveat to note about mobile design: it may seem limited at first like you have little room to work with, but we've designed mobile websites to scroll. If you ever need to add more content to a mobile page later, you can do so and represent it in your mock-ups by making the frame longer (increasing the height).
 
 ### Using templates
-Some will say that all art is just theft and for the most part that can be said about design too. There's no need to re-design an app from scratch with so many templates out in the wild. Often these starter templates can contain everything from components to font hierarchies (ie h1 vs h4) as well as different stylings.
+Some will say that all art is just theft and for the most part that can be said about design too. There's no need to re-design an app from scratch with so many templates out in the wild. Often these starter templates can contain everything from components to font hierarchies (ie h1 vs h4) as well as different stylings. There will be many times in your career where you'll be asked to quickly design a mock-up, and using templates is often the quickest way to do so. 
 
 Here are some free starter Figma templates that you should save to your account. You will most likely be lifting components from some of them as we progress:
 
@@ -79,6 +79,21 @@ Here are some reasons why illustrating data flow is crucial to keeping everyone 
 - If third party APIs are involved, they can also be mapped. 
 
 There are many ways to illustrate data flow, but as the Hack Reactor curriculum is React based, we will treat data passed between screens as props and represent them as objects. 
+
+Start with this sample, and then illustrate how you would pass props between views:
+
+```
+props = {
+  burgerImage: 'url',
+  nutritionInfo: {
+    calories: 1200,
+    sodium: 1000mg,
+    ...
+  }
+  ...
+}
+
+```
 
 ## 4. Coding it Up (Optional)
 At this point, you've successfully created an app mockup and provided enough information for the entire team to build the app! If you'd like, go ahead and build out this front-end with mock-data of your choice.
