@@ -98,5 +98,9 @@ props = {
 
 ```
 
+Then place them into your Figma document: 
+
+![screenshot](https://raw.githubusercontent.com/ArohanD/IntroToAppDesign/master/screenshots/Screen%20Shot%202020-01-09%20at%201.14.19%20PM.png)
+
 ## 4. Coding it Up (Optional)
 At this point, you've successfully created an app mockup and provided enough information for the entire team to build the app! If you'd like, go ahead and build out this front-end with mock-data of your choice.
